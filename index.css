@@ -1,0 +1,85 @@
+div.nav-box{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 280px;
+  height: 200px;
+  background-color: cyan;
+  filter: alpha(opacity=60) /*IE8 and earlier */
+}
+div.nav-box2{
+  margin-top:115px;
+  width: 280px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity: 0.8;
+
+}
+ul{
+  list-style-type: none;
+}
+li.name{
+  list-style-type: none;
+  font-family: Arial;
+  font-size:20px;
+  top: 80px;
+  left: 175px;
+  position: relative;
+}
+li.lname{
+  list-style-type: none;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  top: 80px;
+  left: 100px;
+  position: relative;
+}
+li.major{
+  list-style-type: none;
+  font-family: Arial;
+  font-size:13px;
+  top: 80px;
+  left: 100px;
+  position: relative;
+}
+li.minor{
+  list-style-type: none;
+  font-family: Arial;
+  font-size:13px;
+  top: 80px;
+  left: 25px;
+  position: relative;
+}
+/* nav-box2 list */
+.hover{
+  background-color: cyan;
+
+}
+li a{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 15px;
+  width: 100px;
+  background-color: #ffffff;
+}
+li a:hover{
+  background-color: #555;
+  color: grey;
+}
+ul.nav-buttons{
+  padding: 15px 150px;
+}
+/* button */
+.button1{
+  margin-top: 200px;
+  height:100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: cyan;
+  border: none;
+}
+/*control slider*/
+.brightness{
+  margin-left: 20px;
+}
