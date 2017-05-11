@@ -83,3 +83,14 @@ ul.nav-buttons{
 .brightness{
   margin-left: 20px;
 }
+/* resume background */
+div.bg-box{
+  margin-left: 400px;
+  width: 1200px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+div.about-me{
+  margin-left: 20px;
+}

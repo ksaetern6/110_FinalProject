@@ -6,22 +6,35 @@
     <title>Test</title>
     <script type="text/javascript" src="index.js"></script>
   </head>
-  <body background="homepage.jpg">
-    <div class="nav-box">
-      <ul>
-        <li class="name">Ken</li>
-        <li class="lname">Saetern</li>
-        <li class="major">CINS Major / </li>
-        <li class="major">Business Minor</li>
-      </ul>
-      <div class="nav-box2">
-        <ul class="nav-buttons">
-          <li class="hover"><a href="index.html">Home</a></li>
-          <li ><a href="resume.html" class="hover">Resume</a></li>
-          <li ><a href="portfolio.html">Portfolio</a></li>
-          <li ><a href="contact.html">Contact Me</a></li>
+  <body onload="bgfunc()" style="background-size: cover;">
+    <button onclick="viewmode()">Change View Mode</button>
+    <div class="nav-box ">
+
+        <ul>
+          <li class="name">Ken</li>
+          <li class="lname">Saetern</li>
+          <li class="major">CINS Major / </li>
+          <li class="major">Business Minor</li>
         </ul>
+
+        <div class="nav-box2">
+          <ul class="nav-buttons">
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="resume.html" class="hover">Resume</a></li>
+            <li ><a href="portfolio.html">Portfolio</a></li>
+            <li ><a href="contact.html">Contact Me</a></li>
+          </ul>
+          <input type="range" id="myRange" min=".4" max="1" step="0.1" value="1">
+        </div>
+
       </div>
-    </div>
+      <div class="bg-box">
+
+        <div >
+          <img src="aboutme.png" style="width:48px;height:48px;
+          margin: 20px 40px"/>
+        </div>
+        <!--about me icon -->
+      </div>
   </body>
 </html>
