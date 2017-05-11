@@ -73,11 +73,16 @@ ul.nav-buttons{
 /* button */
 .button1{
   margin-top: 200px;
-  height:100px;
-  width: 100px;
+  height:75px;
+  width: 75px;
   border-radius: 50px;
   background-color: cyan;
   border: none;
+}
+.button1:hover{
+  background-color: #00cccc;
+  height:100px;
+  width: 100px;
 }
 /*control slider*/
 .brightness{
@@ -93,4 +98,125 @@ div.bg-box{
 }
 div.about-me{
   margin-left: 20px;
+}
+/*Resume*/
+h1{
+  font-family: Arial;
+  font-size: 20px;
+  margin: 5px 20px;
+}
+h2{
+  font-family: Arial;
+  font-size: 20px;
+  position: absolute;
+  top: 395px;
+  left: 800px;
+}
+p{
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 150%;
+  display: block;
+}
+p.aboutmetext {
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 20%;
+}
+div.bar1{
+  position: relative;
+  left: 300px;
+  bottom: 150px;
+}
+div.bar2{
+  position: relative;
+  left: 300px;
+  bottom: 130px;
+}
+div.bar3{
+  position: relative;
+  left: 300px;
+  bottom: 110px;
+}
+/*progress bar */
+#Progressbar{
+  width: 20%;
+  height: 15px;
+  background-color: grey;
+}
+
+#myBar{
+  width: 1%;
+  height: 15px;
+  background-color: cyan;
+  text-align: center;
+  line-height: 15px;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  color: grey;
+}
+#myBar2{
+  width: 1%;
+  height: 15px;
+  background-color: #00e6e6;
+  text-align: center;
+  line-height: 15px;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  color: grey;
+}
+#myBar3{
+  width: 1%;
+  height: 15px;
+  background-color: #00cccc;
+  text-align: center;
+  line-height: 15px;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  color: grey;
+}
+#cplus{
+  border-radius: 25px;
+  position: relative;
+  background-color: cyan;
+  bottom: 15px;
+  left: 245px;
+  width: 35px;
+  height:15px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold%;
+  line-height: 15px;
+}
+#java{
+  border-radius: 25px;
+  position: relative;
+  background-color: #00e6e6;
+  bottom: 15px;
+  left: 245px;
+  width: 35px;
+  height:15px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold%;
+  line-height: 15px;
+}
+#sql{
+  border-radius: 25px;
+  position: relative;
+  background-color: #00cccc;
+  bottom: 15px;
+  left: 245px;
+  width: 35px;
+  height:15px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold%;
+  line-height: 15px;
 }

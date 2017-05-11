@@ -6,7 +6,7 @@
     <title>Test</title>
     <script type="text/javascript" src="index.js"></script>
   </head>
-  <body onload="bgfunc()" style="background-size: cover;">
+  <body onload="bgfunc();move()" style="background: url('homepage.jpg'); background-size: cover;">
     <button onclick="viewmode()">Change View Mode</button>
     <div class="nav-box ">
 
@@ -29,12 +29,40 @@
 
       </div>
       <div class="bg-box">
-
+        <!--white background layer -->
         <div >
           <img src="aboutme.png" style="width:48px;height:48px;
           margin: 20px 40px"/>
+          <img src="skills.png" style="width:48px;height:48px;
+          margin: 20px 260px"/>
+          <h1>About Me</h1>
+          <p class="aboutmetext">Hi, I'm Ken Saetern and I'm a <br>
+          Computer Information Systems <br>
+          Student at Chico State <br>
+          University. I'm learning about <br>
+          database structures, networking, <br>
+          and advanced coding algorithms.</p>
+          <!--Progress bars -->
+          <h2>Skills</h2>
+          <div class="bar1" id="Progressbar">
+            <div id="myBar">10%</div>
+            <div id="cplus">c++</div>
+          </div>
+          <div class="bar2" id="Progressbar">
+            <div id="myBar2">10%</div>
+            <div id="java">JS</div>
+          </div>
+          <div class="bar3" id="Progressbar">
+            <div id="myBar3">10%</div>
+            <div id="sql">SQL</div>
+          </div>
+          <!--Proess Bars end -->
+
+
         </div>
         <!--about me icon -->
+
       </div>
+      <!--end of bg-box -->
   </body>
 </html>
