@@ -63,4 +63,36 @@ function move(){
     }
   }
 
+}//move()
+
+var clock = document.getElementById("clock");
+var hexColor = document.getElementById("hex-color");
+//global variables to change html elements
+function hexClock(){
+  var time = new Date();
+  //creates new object from Date() function
+  var hours = (time.getHours() % 12).toString();
+  var minutes = time.getMinutes().toString();
+  var seconds = time.getSeconds().toString();
+  //gets times from dates.
+  if(hours.length < 2){
+    hours = '0' + hours;
+  }//add 0 to hours
+  if(minutes.length  < 2){
+    minutes = '0' + minutes;
+  }//add 0 to minutes
+  if(seconds.length < 2) {
+    seconds = '0' + seconds;
+  }//add 0 to seconds
+  var hexCStr = '#' + hours + minutes + seconds;
+  var cloStr = hours + ' : ' + minutes + ' : ' + seconds;
+  //format for clock
+
+  document.getElementById("clock").innerHTML = cloStr;
+  document.getElementById("hex-color").innerHTML  = hexCStr;
+  //changes values in html
+  document.getElementById("hex-bg").style.backgroundColor =  hexCStr;
+  //changes bg color
+  setInterval(hexClock,1000);
+  //hexcolor changes every second.
 }

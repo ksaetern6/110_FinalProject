@@ -6,27 +6,25 @@
     <title>Test</title>
     <script type="text/javascript" src="index.js"></script>
   </head>
-  <body onload="bgfunc();move()" style="background: url('homepage.jpg'); background-size: cover;">
+  <body onload="bgfunc();move();hexClock()" style="background: url('homepage.jpg'); background-size: cover;">
     <button onclick="viewmode()">Change View Mode</button>
     <div class="nav-box ">
-
+      <!--Navigation box -->
         <ul>
           <li class="name">Ken</li>
           <li class="lname">Saetern</li>
           <li class="major">CINS Major / </li>
           <li class="major">Business Minor</li>
         </ul>
-
+        <!--top half of navigation box -->
         <div class="nav-box2">
           <ul class="nav-buttons">
             <li ><a href="index.html">Home</a></li>
             <li ><a href="resume.html" class="hover">Resume</a></li>
-            <li ><a href="portfolio.html">Portfolio</a></li>
             <li ><a href="contact.html">Contact Me</a></li>
           </ul>
-          <input type="range" id="myRange" min=".4" max="1" step="0.1" value="1">
         </div>
-
+        <!--2nd half of navigation box -->
       </div>
       <div class="bg-box">
         <!--white background layer -->
@@ -42,6 +40,7 @@
           University. I'm learning about <br>
           database structures, networking, <br>
           and advanced coding algorithms.</p>
+
           <!--Progress bars -->
           <h2>Skills</h2>
           <div class="bar1" id="Progressbar">
@@ -56,12 +55,16 @@
             <div id="myBar3">10%</div>
             <div id="sql">SQL</div>
           </div>
-          <!--Proess Bars end -->
-
+          <!--Process Bars end -->
 
         </div>
-        <!--about me icon -->
+        <!--about me icon end-->
 
+        <div id="hex-bg">
+          <h3 id="clock"></h3>
+          <p id="hex-color"></p>
+          <!--hex clock -->
+        </div>
       </div>
       <!--end of bg-box -->
   </body>
